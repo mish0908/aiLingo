@@ -1,10 +1,55 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask_sqlalchemy import SQLAlchemy
+from user import create_user, authenticate, get_user   # <-- helpers
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.secret_key = 'secret'
+db = SQLAlchemy(app)
+
+# make sure tables exist once
+with app.app_context():
+    db.create_all()
 
 @app.route('/')
 def home():
-	return "hi"
+    return render_template('home.html')
+
+@app.route('/vocab')
+def vocab():
+    return render_template('vocab.html')
+
+# ---------- register ----------
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        user = create_user(request.form['username'],
+                           request.form['email'],
+                           request.form['password'])
+        if user:
+            flash('Registered! Please log in.')
+            return redirect(url_for('login'))
+        flash('Username or email already exists.')
+    return render_template('register.html')
+
+# ---------- login ----------
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        user = authenticate(request.form['username'], request.form['password'])
+        if user:
+            session['user_id'] = user.id
+            flash('Logged in!')
+            return redirect(url_for('home'))
+        flash('Invalid credentials.')
+    return render_template('login.html')
+
+# ---------- logout ----------
+@app.route('/logout')
+def logout():
+    session.pop('user_id', None)
+    flash('Logged out.')
+    return redirect(url_for('home'))
 
 if __name__ == "__main__":
     app.run(debug=True)
