@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
-from flask_sqlalchemy import SQLAlchemy
-from user import create_user, authenticate, get_user   # <-- helpers
+from models import db, User
+from user import create_user, authenticate, get_user
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 app.secret_key = 'secret'
-db = SQLAlchemy(app)
+
+# Initialize the database with the app
+db.init_app(app)
 
 # make sure tables exist once
 with app.app_context():
@@ -52,4 +54,4 @@ def logout():
     return redirect(url_for('home'))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5001)
