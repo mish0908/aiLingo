@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from models import db, User
 from user import create_user, authenticate, get_user
+from vocabulary_service import VocabularyService
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
@@ -20,6 +21,12 @@ def home():
 @app.route('/vocab')
 def vocab():
     return render_template('vocab.html')
+
+@app.route('/vocab/<category>')
+def vocabulary_category(category):
+    vocab_service = VocabularyService()
+    words = vocab_service.get_category_words(category)
+    return render_template('vocabulary_category.html', category=category, words=words)
 
 # ---------- register ----------
 @app.route('/register', methods=['GET', 'POST'])
