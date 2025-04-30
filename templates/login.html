@@ -4,39 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - aiLingo</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>Login to aiLingo</h1>
-        
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <div class="flash-messages">
-                    {% for message in messages %}
-                        <div class="flash-message">{{ message }}</div>
-                    {% endfor %}
-                </div>
-            {% endif %}
-        {% endwith %}
-        
-        <form method="POST" action="{{ url_for('login') }}" class="auth-form">
-            <div class="form-group">
-                <label for="username">Username or Email</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Login</button>
-        </form>
-        
-        <div class="auth-links">
-            <p>Don't have an account? <a href="{{ url_for('register') }}">Register</a></p>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- ===== Navbar ===== -->
+    <nav class="bg-pink-600 text-white">
+        <div class="max-w-6xl mx-auto flex items-center justify-between h-16 px-6">
+            <a href="/" class="text-2xl font-semibold tracking-wide">aiLingo</a>
+            <ul class="flex space-x-10 text-lg font-medium">
+                <li><a class="hover:text-pink-200 transition" href="/">Home</a></li>
+                <li><a class="hover:text-pink-200 transition" href="/lessons">Lessons</a></li>
+                <li><a class="hover:text-pink-200 transition" href="/vocab">Vocabulary</a></li>
+                <li><a class="hover:text-pink-200 transition" href="/contact">Contact</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
+
+    <!-- ===== Login Form ===== -->
+    <section class="bg-pink-50 min-h-screen py-12">
+        <div class="max-w-md mx-auto px-6">
+            <div class="bg-white shadow-lg rounded-lg p-8">
+                <h1 class="text-3xl font-bold text-pink-600 mb-6 text-center">Login to aiLingo</h1>
+                
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <div class="mb-6">
+                            {% for message in messages %}
+                                <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-2 rounded">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                
+                <form method="POST" action="{{ url_for('login') }}" class="space-y-6">
+                    <div>
+                        <label for="username" class="block text-gray-700 font-medium mb-2">Username or Email</label>
+                        <input type="text" id="username" name="username" required
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                    </div>
+                    
+                    <div>
+                        <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+                        <input type="password" id="password" name="password" required
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg transition">
+                        Login
+                    </button>
+                </form>
+                
+                <div class="mt-6 text-center">
+                    <p class="text-gray-600">Don't have an account? 
+                        <a href="{{ url_for('register') }}" class="text-pink-600 hover:text-pink-800 font-medium">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="bg-pink-600 text-white text-center py-8">
+        <p>&copy; 2025 aiLingo | Learn English the practical way</p>
+    </footer>
+
 </body>
 </html> 
