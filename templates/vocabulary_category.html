@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ category.title() }} Vocabulary - aiLingo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <!-- ==== Fixed desktop navbar ==== -->
+    <nav class="bg-pink-600 text-white">
+        <div class="max-w-6xl mx-auto flex items-center justify-between h-16 px-6">
+            <!-- Brand / Logo -->
+            <a href="/" class="text-2xl font-semibold tracking-wide">aiLingo</a>
+
+            <!-- Link list (always visible) -->
+            <ul class="flex space-x-10 text-lg font-medium">
+                <li><a href="/" class="hover:text-pink-200 transition">Home</a></li>
+                <li><a href="/lessons" class="hover:text-pink-200 transition">Lessons</a></li>
+                <li><a href="/vocab" class="text-pink-200 font-bold">Vocabulary</a></li>
+                <li><a href="/contact" class="hover:text-pink-200 transition">Contact</a></li>
+                <li><a href="/login" class="hover:text-pink-200 transition">Login</a></li>
+                <li><a href="/register" class="hover:text-pink-200 transition">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==== Header ==== -->
+    <header class="bg-pink-600 text-white text-center py-8">
+        <h1 class="text-4xl font-bold">{{ category.title() }} Vocabulary</h1>
+        <p class="mt-4 text-xl">Learn essential {{ category.lower() }} vocabulary with examples and images.</p>
+    </header>
+
+    <!-- ==== Vocabulary List ==== -->
+    <main class="max-w-4xl mx-auto mt-12 mb-16 px-4">
+        <div class="grid gap-8">
+            {% for word in words %}
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-pink-600">{{ word.word }}</h2>
+                            {% if word.phonetic %}
+                            <p class="text-gray-600 mt-1">{{ word.phonetic }}</p>
+                            {% endif %}
+                        </div>
+                        {% if word.image_url %}
+                        <img src="{{ word.image_url }}" alt="{{ word.word }}" class="w-32 h-32 object-cover rounded-lg">
+                        {% endif %}
+                    </div>
+
+                    <div class="mt-4">
+                        {% for meaning in word.meanings %}
+                        <div class="mb-4">
+                            <h3 class="text-lg font-semibold text-gray-700">{{ meaning.part_of_speech }}</h3>
+                            <ul class="list-disc list-inside mt-2 space-y-2">
+                                {% for definition in meaning.definitions %}
+                                <li class="text-gray-600">{{ definition }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    {% if word.examples %}
+                    <div class="mt-4">
+                        <h3 class="text-lg font-semibold text-gray-700">Examples:</h3>
+                        <ul class="list-disc list-inside mt-2 space-y-2">
+                            {% for example in word.examples %}
+                            <li class="text-gray-600 italic">"{{ example }}"</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    <!-- ==== Footer ==== -->
+    <footer class="bg-pink-600 text-white text-center py-8">
+        <p>&copy; 2025 aiLingo | Learn English the practical way</p>
+    </footer>
+</body>
+</html> 
