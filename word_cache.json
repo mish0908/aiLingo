@@ -1014,5 +1014,476 @@
     ],
     "usage_notes": "'Buddy' is an informal word, mainly used in American and Canadian English. It is commonly used to refer to a male friend, though in casual situations it can be used for females as well. When addressing someone as 'buddy', context and tone are important: it can be friendly ('Hey buddy!') or slightly aggressive if spoken sharply to a stranger. The word is less formal than 'friend', and may not be appropriate in formal contexts, business correspondence, or with people you do not know well. In some cases, it may be perceived as patronizing or rude, especially among adults who are strangers.",
     "is_slang": true
+  },
+  "hello": {
+    "word": "Hello",
+    "phonetic": "/həˈloʊ/",
+    "chinese": "你好",
+    "pinyin": "nǐ hǎo",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "Used as a greeting or to begin a telephone conversation.",
+          "Used to express surprise or to call attention."
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "An utterance of 'hello'; a greeting."
+        ]
+      }
+    ],
+    "examples": [
+      "Hello, how are you today?",
+      "She answered the phone with a cheerful hello.",
+      "Hello! Is anyone there?"
+    ],
+    "chinese_examples": [
+      "你好，你今天怎么样？",
+      "她用愉快的“你好”接了电话。",
+      "你好！有人在吗？"
+    ],
+    "usage_notes": "'Hello' is the most common and polite English greeting, suitable in both formal and informal situations. It can be used during first meetings or when answering the phone. Alternatives include 'hi' (more informal) or 'hey' (very informal).",
+    "is_slang": false
+  },
+  "hi": {
+    "word": "hi",
+    "phonetic": "/haɪ/",
+    "chinese": "你好、嗨",
+    "pinyin": "nǐ hǎo, hāi",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "Used to greet someone; an informal or friendly way of saying 'hello'."
+        ]
+      }
+    ],
+    "examples": [
+      "Hi, how are you?",
+      "She waved and said, 'Hi!'",
+      "I just wanted to say hi before leaving."
+    ],
+    "chinese_examples": [
+      "Hi, 你好吗？",
+      "她挥手说：“Hi！”",
+      "我只是想在离开前打个招呼。"
+    ],
+    "usage_notes": "'Hi' is very informal and is commonly used between friends, family members, colleagues, and people of the same age. It is not appropriate for formal situations, such as addressing someone in a professional or official context for the first time. It is widely used in both spoken and written English (emails, texts, messages). Variants like 'Hey' or 'Hello' can be more or less formal.",
+    "is_slang": false
+  },
+  "good morning": {
+    "word": "Good morning",
+    "phonetic": "/ɡʊd ˈmɔːrnɪŋ/",
+    "chinese": "早安；早上好",
+    "pinyin": "zǎo ān; zǎo shang hǎo",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "A polite greeting or expression used when meeting or seeing someone in the morning."
+        ]
+      }
+    ],
+    "examples": [
+      "Good morning! How are you today?",
+      "She said, \"Good morning\" to her colleagues when she arrived at work.",
+      "Good morning, everyone. Let's begin the meeting."
+    ],
+    "chinese_examples": [
+      "Good morning, everyone. Let's begin the meeting.（各位早上好。让我们开始会议。）",
+      "She said, \"Good morning\" to her colleagues.（她和同事们说了声“早安”。）"
+    ],
+    "usage_notes": "\"Good morning\" is a common English greeting used from the early morning until around noon. It is considered polite and formal or neutral depending on context. Do not use it in the afternoon or evening, when 'Good afternoon' or 'Good evening' is more appropriate. The phrase is not slang.",
+    "is_slang": false
+  },
+  "good evening": {
+    "word": "Good evening",
+    "phonetic": "/ɡʊd ˈiːvnɪŋ/",
+    "chinese": "晚上好",
+    "pinyin": "wǎnshàng hǎo",
+    "meanings": [
+      {
+        "part_of_speech": "phrase",
+        "definitions": [
+          "Used as a polite greeting or farewell in the evening, typically after 6 p.m. or when it starts to get dark."
+        ]
+      }
+    ],
+    "examples": [
+      "Good evening, Mr. Smith. How are you today?",
+      "She greeted her guests with a warm 'Good evening.'"
+    ],
+    "chinese_examples": [
+      "她一进门就说：“晚上好！”",
+      "服务员微笑着说：“晚上好，请进。”"
+    ],
+    "usage_notes": "'Good evening' is a formal or polite greeting used in the evening. It is more formal than simply saying 'Hi' or 'Hello.' It can be used both when meeting someone and, less commonly, when parting in the evening. It is not slang and is appropriate for both spoken and written English, especially in formal contexts.",
+    "is_slang": false
+  },
+  "how are you?": {
+    "word": "How are you?",
+    "phonetic": "/haʊ ɑːr juː/",
+    "chinese": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "meanings": [
+      {
+        "part_of_speech": "phrase",
+        "definitions": [
+          "A polite or friendly greeting used to ask someone about their general well-being or health."
+        ]
+      }
+    ],
+    "examples": [
+      "\"Hi John, how are you?\"",
+      "\"It's been a while! How are you?\""
+    ],
+    "chinese_examples": [
+      "“嗨，约翰，你好吗？”",
+      "“好久不见，你好吗？”"
+    ],
+    "usage_notes": "\"How are you?\" is a very common greeting in English-speaking countries. It is often used when meeting someone or starting a conversation. In casual situations, people may not expect a detailed answer—typical responses include \"I'm fine, thank you. And you?\" or simply \"Good, thanks.\" In more formal or concerned contexts, it may invite a more complete answer.",
+    "is_slang": false
+  },
+  "how are you": {
+    "word": "how are you",
+    "phonetic": "/haʊ ɑːr juː/",
+    "chinese": "你好吗",
+    "pinyin": "nǐ hǎo ma",
+    "meanings": [
+      {
+        "part_of_speech": "phrase (greeting)",
+        "definitions": [
+          "A polite way to inquire about someone's well-being or condition upon greeting them."
+        ]
+      }
+    ],
+    "examples": [
+      "How are you? I haven't seen you in ages!",
+      "She smiled and said, 'How are you today?'"
+    ],
+    "chinese_examples": [
+      "你好啊，好久不见！",
+      "她微笑着说：“你今天好吗？”"
+    ],
+    "usage_notes": "'How are you' is a very common greeting in English and is typically used in formal and informal situations. Often, people do not expect a detailed answer; a simple 'I'm fine, thank you' or 'Good, how about you?' suffices. In casual contexts, variants like 'How're you?' or 'How ya doin'?' are also common. In some countries, replying with a simple greeting without actually addressing the question is socially acceptable.",
+    "is_slang": false
+  },
+  "break the ice": {
+    "word": "break the ice",
+    "phonetic": "/breɪk ði aɪs/",
+    "chinese": "打破沉默；打破僵局",
+    "pinyin": "dǎ pò chén mò; dǎ pò jiāng jú",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "to do or say something to relieve tension or get conversation going in a social situation",
+          "to initiate social interaction in an unfamiliar or awkward situation"
+        ]
+      }
+    ],
+    "examples": [
+      "At the start of the meeting, he told a joke to break the ice.",
+      "It can be difficult to break the ice at a party where you don't know anyone."
+    ],
+    "chinese_examples": [
+      "在会议开始时，他讲了个笑话来打破沉默。",
+      "在一个你不认识任何人的聚会上，打破僵局可能会很困难。"
+    ],
+    "usage_notes": "This idiom is commonly used in social or formal situations where people might feel shy, awkward, or reserved. It's not considered slang, but rather a standard phrase. Typical 'ice-breakers' include jokes, friendly small talk, or activities designed to help people feel more comfortable.",
+    "is_slang": false
+  },
+  "hit the nail on the head": {
+    "word": "hit the nail on the head",
+    "phonetic": "/hɪt ðə neɪl ɒn ðə hɛd/",
+    "chinese": "一针见血，说中要害，切中要点",
+    "pinyin": "yī zhēn jiàn xiě, shuō zhòng yào hài, qiè zhòng yào diǎn",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "To describe exactly what is causing a situation or problem; to be exactly right about something."
+        ]
+      }
+    ],
+    "examples": [
+      "You really hit the nail on the head with your analysis of the problem.",
+      "When she said we need more communication, she hit the nail on the head."
+    ],
+    "chinese_examples": [
+      "你对这个问题的分析真是一针见血。",
+      "她说我们需要加强沟通，真是说中要害。"
+    ],
+    "usage_notes": "This phrase is often used to praise someone who gives a particularly accurate comment or solution. It is informal and commonly used in both spoken and written English, especially in everyday situations. It is not slang but rather a widely accepted idiom and metaphor.",
+    "is_slang": false
+  },
+  "let the cat out of the bag": {
+    "word": "let the cat out of the bag",
+    "phonetic": "/let ðə kæt aʊt ʌv ðə bæɡ/",
+    "chinese": "泄露秘密",
+    "pinyin": "xiè lù mìmì",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "To reveal a secret, often by accident; to disclose something that is supposed to be concealed."
+        ]
+      }
+    ],
+    "examples": [
+      "I was trying to keep the party a surprise, but John let the cat out of the bag.",
+      "She let the cat out of the bag about the company's new product launch before the official announcement."
+    ],
+    "chinese_examples": [
+      "我本来想保密那个惊喜派对，但约翰不小心泄露了秘密。",
+      "她在官方宣布前就泄露了公司新品发布的消息。"
+    ],
+    "usage_notes": "This is an informal idiom commonly used in everyday conversations and writing. It is not considered slang, but rather a familiar expression. It can be used in both serious and light-hearted contexts.",
+    "is_slang": false
+  },
+  "piece of cake": {
+    "word": "piece of cake",
+    "phonetic": "/piːs əv keɪk/",
+    "chinese": "小菜一碟；轻而易举的事",
+    "pinyin": "xiǎo cài yī dié; qīng ér yì jǔ de shì",
+    "meanings": [
+      {
+        "part_of_speech": "noun phrase (idiom)",
+        "definitions": [
+          "something that is very easy to do; a task or activity that requires little effort"
+        ]
+      }
+    ],
+    "examples": [
+      "The math test was a piece of cake for me.",
+      "Fixing the bike is a piece of cake if you know how."
+    ],
+    "chinese_examples": [
+      "那场考试对我来说简直是小菜一碟。",
+      "修这辆自行车对他来说是轻而易举的事。"
+    ],
+    "usage_notes": "'Piece of cake' is an informal idiom used in conversational English to express that something is very easy. It is typically used after a form of the verb 'to be' (e.g., 'was a piece of cake'). This expression is similar to 'a walk in the park.' It is not used in formal writing.",
+    "is_slang": false
+  },
+  "spill the beans": {
+    "word": "spill the beans",
+    "phonetic": "/spɪl ðə biːnz/",
+    "chinese": "泄露秘密；透露真相",
+    "pinyin": "xiè lù mìmì; tòu lù zhēnxiàng",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "to reveal a secret or disclose confidential information, often accidentally or prematurely."
+        ]
+      }
+    ],
+    "examples": [
+      "We were going to have a surprise party for Jane, but Tom spilled the beans.",
+      "Don't spill the beans about our plan to anyone."
+    ],
+    "chinese_examples": [
+      "我们原本要给简开一个惊喜派对，但汤姆把秘密泄露了。",
+      "别把我们的计划告诉别人。"
+    ],
+    "usage_notes": "This is an informal idiom used in both spoken and written English. It is often used when someone unintentionally reveals private or sensitive information. It should not be used in very formal settings. The phrase is thought to originate from an ancient Greek voting system using beans; spilling the beans would reveal the result too soon.",
+    "is_slang": false
+  },
+  "costs an arm and a leg": {
+    "word": "costs an arm and a leg",
+    "phonetic": "/kɒsts ən ɑːm ənd ə lɛɡ/",
+    "chinese": "价值非常昂贵；花费很多钱",
+    "pinyin": "jiàzhí fēicháng ángguì; huāfèi hěn duō qián",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "to be very expensive; to cost a lot of money."
+        ]
+      }
+    ],
+    "examples": [
+      "Buying a car in that city costs an arm and a leg.",
+      "His new phone cost him an arm and a leg."
+    ],
+    "chinese_examples": [
+      "在那个城市买车要花很多钱。",
+      "他的新手机花了他很多钱。"
+    ],
+    "usage_notes": "This is an informal idiomatic phrase mainly used in spoken English. It often expresses surprise, frustration, or emphasis about high prices. It is not typically used in formal writing. The phrase can be modified to different tenses or persons (e.g., 'cost me an arm and a leg').",
+    "is_slang": false
+  },
+  "under the weather": {
+    "word": "under the weather",
+    "phonetic": "/ˌʌn.dər ðə ˈweð.ər/",
+    "chinese": "身体不适；感到不舒服",
+    "pinyin": "shēn tǐ bù shì; gǎn dào bù shū fú",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "Feeling ill or unwell, usually due to a minor sickness such as a cold or fatigue."
+        ]
+      }
+    ],
+    "examples": [
+      "I'm feeling a bit under the weather today, so I think I'll stay home and rest.",
+      "She was under the weather, so she couldn't come to the meeting."
+    ],
+    "chinese_examples": [
+      "我今天有点身体不适，所以想在家休息。",
+      "她感觉不太舒服，没能来参加会议。"
+    ],
+    "usage_notes": "This phrase is informal and mostly used in spoken English. It refers to feeling a little ill (not seriously ill), often due to a cold, flu, or tiredness. It is not used for serious illnesses or injuries. The origin of the phrase is nautical, referring to sailors who were sent below deck when they were sick to avoid bad weather.",
+    "is_slang": false
+  },
+  "hit the books": {
+    "word": "hit the books",
+    "phonetic": "/hɪt ðə bʊks/",
+    "chinese": "用功学习；刻苦读书",
+    "pinyin": "yòng gōng xué xí; kè kǔ dú shū",
+    "meanings": [
+      {
+        "part_of_speech": "idiom (verb phrase)",
+        "definitions": [
+          "to begin to study hard; to start studying intensely, especially for an exam or test."
+        ]
+      }
+    ],
+    "examples": [
+      "I have to hit the books tonight if I want to pass my biology exam.",
+      "After the holiday, it's time to hit the books again."
+    ],
+    "chinese_examples": [
+      "我今晚得用功学习，才能通过生物考试。",
+      "假期过后，该刻苦读书了。"
+    ],
+    "usage_notes": "'Hit the books' is an informal expression used mainly in spoken English. It is not used literally but as an idiom meaning to start studying seriously. It is commonly used among students.",
+    "is_slang": false
+  },
+  "cost an arm and a leg": {
+    "word": "cost an arm and a leg",
+    "phonetic": "/kɒst ən ɑːm ənd ə lɛɡ/",
+    "chinese": "价格非常昂贵",
+    "pinyin": "jiàgé fēicháng ánguì",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "To be very expensive; to cost a lot of money."
+        ]
+      }
+    ],
+    "examples": [
+      "It will cost you an arm and a leg to buy that house in the city center.",
+      "I want that luxury car, but it costs an arm and a leg."
+    ],
+    "chinese_examples": [
+      "在市中心买房要花一大笔钱，真是价格非常昂贵。",
+      "那辆豪华汽车价格高得离谱，真的是要花大价钱。"
+    ],
+    "usage_notes": "This is an informal idiom used to emphasize that something is much more expensive than normal. It is generally used in conversation, writing, or stories, but not in formal or technical writing. The phrase does not refer to actual arms or legs; it's just a metaphor for something's high cost.",
+    "is_slang": false
+  },
+  "once in a blue moon": {
+    "word": "once in a blue moon",
+    "phonetic": "/wʌns ɪn ə bluː muːn/",
+    "chinese": "千载难逢；极其罕见；很少发生",
+    "pinyin": "qiān zǎi nán féng; jí qí hǎn jiàn; hěn shǎo fā shēng",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "Very rarely; something that happens only infrequently or occasionally."
+        ]
+      }
+    ],
+    "examples": [
+      "She visits her hometown once in a blue moon.",
+      "I eat fast food only once in a blue moon."
+    ],
+    "chinese_examples": [
+      "她千载难逢才回一次老家。",
+      "我很少吃快餐，几乎是千载难逢。"
+    ],
+    "usage_notes": "This idiomatic expression is informal and used to describe events that are extremely rare or infrequent. It is often used for emphasis. The phrase is not considered slang, but rather a standard idiom in English.",
+    "is_slang": false
+  },
+  "bite the bullet": {
+    "word": "bite the bullet",
+    "phonetic": "/baɪt ðə ˈbʊlɪt/",
+    "chinese": "咬紧牙关，硬着头皮去做；勇敢地面对困难或痛苦的事",
+    "pinyin": "yǎo jǐn yá guān, yìng zhe tóu pí qù zuò; yǒng gǎn dì miàn duì kùn nán huò tòng kǔ de shì",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "To force yourself to do something unpleasant or difficult that you have been putting off, or to endure a painful situation that is unavoidable."
+        ]
+      }
+    ],
+    "examples": [
+      "You just have to bite the bullet and tell him the truth.",
+      "She decided to bite the bullet and start her own business, even though it was risky.",
+      "After months of putting it off, I finally bit the bullet and went to the dentist."
+    ],
+    "chinese_examples": [
+      "你只能咬紧牙关，告诉他真相。",
+      "她决定硬着头皮创业，虽然很冒险。",
+      "拖了几个月后，我终于咬紧牙关去了看牙医。"
+    ],
+    "usage_notes": "This is an informal expression, often used when someone faces a challenging task or uncomfortable situation that cannot be avoided. It emphasizes courage or determination. Not considered slang, but idiomatic and less formal. Appropriate for both spoken and written English, but not for very formal writing.",
+    "is_slang": false
+  },
+  "the ball is in your court": {
+    "word": "the ball is in your court",
+    "phonetic": "/ðə bɔːl ɪz ɪn jɔː(r) kɔːt/",
+    "chinese": "现在轮到你决定或采取行动了",
+    "pinyin": "xiàn zài lún dào nǐ jué dìng huò cǎi qǔ xíng dòng le",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "It is now your responsibility to make a decision or take action. The next move is yours."
+        ]
+      }
+    ],
+    "examples": [
+      "I've done all I can – now the ball is in your court.",
+      "She apologised, so the ball is in his court."
+    ],
+    "chinese_examples": [
+      "我已经把该做的都做了，现在球在你那边了。",
+      "她已经道歉了，所以接下来要看他的决定了。"
+    ],
+    "usage_notes": "This phrase is informal and often used in conversation or writing to indicate that someone else must respond or decide what happens next. Its origin is from tennis, where the ball must be played by the person on whose side it lands.",
+    "is_slang": false
+  },
+  "hit the sack": {
+    "word": "hit the sack",
+    "phonetic": "/hɪt ðə sæk/",
+    "chinese": "上床睡觉；去睡觉",
+    "pinyin": "shàng chuáng shuì jiào; qù shuì jiào",
+    "meanings": [
+      {
+        "part_of_speech": "idiom",
+        "definitions": [
+          "to go to bed; to go to sleep"
+        ]
+      }
+    ],
+    "examples": [
+      "I'm really tired, so I'm going to hit the sack.",
+      "It's late. Time to hit the sack."
+    ],
+    "chinese_examples": [
+      "我太累了，要去睡觉了。",
+      "很晚了，该上床睡觉了。"
+    ],
+    "usage_notes": "'Hit the sack' is an informal idiom commonly used in everyday spoken English. It means to go to bed or to go to sleep, usually after a tiring day. It's similar in meaning to 'hit the hay.' It's not appropriate for very formal writing or contexts.",
+    "is_slang": false
   }
 }
