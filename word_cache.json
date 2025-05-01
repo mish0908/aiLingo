@@ -1485,5 +1485,552 @@
     ],
     "usage_notes": "'Hit the sack' is an informal idiom commonly used in everyday spoken English. It means to go to bed or to go to sleep, usually after a tiring day. It's similar in meaning to 'hit the hay.' It's not appropriate for very formal writing or contexts.",
     "is_slang": false
+  },
+  "airport": {
+    "word": "airport",
+    "phonetic": "/ˈeə.pɔːt/",
+    "chinese": "机场",
+    "pinyin": "jīchǎng",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A place where airplanes regularly take off and land, with buildings for passengers to wait in, and for storing and maintaining aircraft. 机场，飞机场"
+        ]
+      }
+    ],
+    "examples": [
+      "We arrived at the airport two hours before our flight.",
+      "The airport was crowded with travelers.",
+      "She's going to pick me up at the airport."
+    ],
+    "chinese_examples": [
+      "我们在航班起飞前两小时到达了机场。",
+      "机场里挤满了旅客。",
+      "她要去机场接我。"
+    ],
+    "usage_notes": "'Airport' is a non-count noun when referring to airports in general (‘There are many airports in the country’), but it can be used in singular or plural form. Usually used for larger airfields with passenger services and not for small airstrips or military bases. It is not slang.",
+    "is_slang": false
+  },
+  "passport": {
+    "word": "passport",
+    "phonetic": "/ˈpæs.pɔːrt/",
+    "chinese": "护照",
+    "pinyin": "hùzhào",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "an official government document that certifies the identity and nationality of its holder for the purpose of international travel.",
+          "something that enables a person to achieve something or go somewhere, used in a figurative sense."
+        ]
+      }
+    ],
+    "examples": [
+      "Please make sure your passport is valid for at least six months before you travel.",
+      "A university degree is not a passport to success, but it can help."
+    ],
+    "chinese_examples": [
+      "请确保你的护照在出行前至少还有六个月的有效期。",
+      "大学学位并不是通向成功的‘护照’，但它可能会有所帮助。"
+    ],
+    "usage_notes": "‘Passport’ is most often used to refer to the travel document, but can also be used figuratively to mean something that enables entry or achievement (e.g., ‘passport to success’). It is a formal and standard word, not slang.",
+    "is_slang": false
+  },
+  "luggage": {
+    "word": "luggage",
+    "phonetic": "/ˈlʌɡɪdʒ/",
+    "chinese": "行李",
+    "pinyin": "xíng li",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "suitcases or other bags in which to pack personal belongings for travel; baggage"
+        ]
+      }
+    ],
+    "examples": [
+      "I checked my luggage at the airport.",
+      "Her luggage was lost on the trip."
+    ],
+    "chinese_examples": [
+      "我在机场托运了我的行李。",
+      "她的行李在旅行中丢失了。"
+    ],
+    "usage_notes": "In British English, 'luggage' is more commonly used, whereas 'baggage' is preferred in American English, especially in airports. 'Luggage' is an uncountable noun; don't say 'a luggage.' Instead, use 'a piece of luggage' or 'some luggage.'",
+    "is_slang": false
+  },
+  "ticket": {
+    "word": "ticket",
+    "phonetic": "/ˈtɪkɪt/",
+    "chinese": "票；罚单；入场券；（抽奖、选举的）票；候选人名单",
+    "pinyin": "piào; fá dān; rù chǎng quàn; piào; hòu xuǎn rén míng dān",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A piece of paper or card that gives the holder a certain right, especially to enter a place, travel by public transport, or participate in an event. (票；入场券)",
+          "A written or printed slip of paper, such as a traffic ticket, serving as a notice of a fine or penalty. (罚单)",
+          "A list of candidates supported by a particular political party in an election. (（选举的）候选人名单)",
+          "A label attached to merchandise in a store with information such as price. (标签)"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "To issue a ticket or fine to someone, especially for a traffic or parking violation. (给…开罚单)"
+        ]
+      }
+    ],
+    "examples": [
+      "I bought a train ticket to Beijing.",
+      "He got a parking ticket for leaving his car in a no-parking zone.",
+      "The band’s concert tickets sold out in ten minutes.",
+      "The Democratic Party introduced their ticket for the presidential election.",
+      "The police officer ticketed several illegally parked cars."
+    ],
+    "chinese_examples": [
+      "我买了一张去北京的火车票。",
+      "他因为违章停车被开了一张罚单。",
+      "乐队的演唱会门票十分钟就售罄了。"
+    ],
+    "usage_notes": "‘Ticket’ most commonly refers to a piece of paper that allows entry or participation (such as travel, entertainment, etc.). In American English, ‘ticket’ also often refers to a penalty issued by the police (parking ticket, speeding ticket). In politics, 'ticket' can refer to a list of candidates running together. The verb form ('to ticket') is mainly used in official or legal contexts. The word is not considered slang, but it is often used in informal situations involving travel or events.",
+    "is_slang": false
+  },
+  "hotel": {
+    "word": "hotel",
+    "phonetic": "/hoʊˈtɛl/",
+    "chinese": "酒店；旅馆",
+    "pinyin": "jiǔ diàn; lǚ guǎn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A building where people pay to stay when traveling; an establishment that provides lodging, meals, and other services for travelers and tourists."
+        ]
+      }
+    ],
+    "examples": [
+      "We stayed at a luxury hotel during our vacation.",
+      "The hotel offers free breakfast and Wi-Fi."
+    ],
+    "chinese_examples": [
+      "我们假期时住在一家豪华酒店。",
+      "这家酒店提供免费早餐和无线网络。"
+    ],
+    "usage_notes": "'Hotel' is most often used as a noun. It can refer to businesses of various types and price ranges, from budget to luxury. In English, 'hotel' should not be confused with 'motel' (which usually refers to a roadside hotel for motorists, often with direct access to rooms from the parking lot). The word 'hotel' is not slang and is universally understood in English-speaking countries.",
+    "is_slang": false
+  },
+  "destination": {
+    "word": "destination",
+    "phonetic": "/ˌdɛstɪˈneɪʃən/",
+    "chinese": "目的地；终点",
+    "pinyin": "mùdì dì; zhōngdiǎn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "the place to which someone or something is going or being sent",
+          "a place that people will make a special trip to visit"
+        ]
+      }
+    ],
+    "examples": [
+      "Paris is a popular tourist destination.",
+      "The package finally arrived at its destination.",
+      "After hours of traveling, we reached our destination."
+    ],
+    "chinese_examples": [
+      "巴黎是一个受欢迎的旅游目的地。",
+      "包裹最终到达了它的目的地。",
+      "经过数小时的旅行，我们到达了目的地。"
+    ],
+    "usage_notes": "\"Destination\" is most commonly used as a noun and refers specifically to the end point of a journey or travel. It can be used literally for places, or figuratively (e.g., 'career destination'). It does not have a slang meaning.",
+    "is_slang": false
+  },
+  "reservation": {
+    "word": "reservation",
+    "phonetic": "/ˌrez.əˈveɪ.ʃən/",
+    "chinese": "预订；保留意见",
+    "pinyin": "yù dìng; bǎo liú yì jiàn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "an arrangement to have something (such as a seat on an airplane or a table at a restaurant) held for your use at a later time（预订）",
+          "a doubt or feeling of not being able to agree with or accept something completely（保留意见，疑虑）",
+          "an area of land in the U.S. kept separate for Native Americans to live on（（美国印第安人的）保留地）"
+        ]
+      }
+    ],
+    "examples": [
+      "I made a reservation at the Italian restaurant for 7 p.m.",
+      "She accepted the job offer, but with some reservations.",
+      "The Navajo Nation is the largest Native American reservation in the United States."
+    ],
+    "chinese_examples": [
+      "我已经在意大利餐厅预订了晚上七点的位置。",
+      "她接受了这份工作，但有一些保留意见。",
+      "纳瓦霍民族是美国最大的印第安人保留地。"
+    ],
+    "usage_notes": "‘Reservation’ is most commonly used when booking tables at restaurants, hotels, or transportation. It can also mean a doubt or hesitation regarding an agreement or statement. In the U.S., it has a special meaning referring to land for Native Americans. It is not slang.",
+    "is_slang": false
+  },
+  "good afternoon": {
+    "word": "good afternoon",
+    "phonetic": "/ɡʊd ˌɑːftəˈnuːn/",
+    "chinese": "下午好",
+    "pinyin": "xiàwǔ hǎo",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "A polite greeting used during the afternoon, typically after 12:00 pm and before evening, when meeting or addressing someone."
+        ]
+      }
+    ],
+    "examples": [
+      "Good afternoon, everyone. Welcome to the meeting.",
+      "She greeted her teacher by saying, 'Good afternoon, Mr. Wang.'"
+    ],
+    "chinese_examples": [
+      "下午好，大家好。欢迎参加会议。",
+      "她对老师说：“下午好，王老师。”"
+    ],
+    "usage_notes": "'Good afternoon' is a formal or polite greeting used between roughly 12:00 pm and 5:00 or 6:00 pm. It is commonly used in both social and business situations. Compared to 'hello,' it is more specific to the time of day but generally less formal than 'good evening.' It is not considered slang.",
+    "is_slang": false
+  },
+  "goodbye": {
+    "word": "goodbye",
+    "phonetic": "/ɡʊdˈbaɪ/",
+    "chinese": "再见",
+    "pinyin": "zài jiàn",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "Said when parting from someone or when ending a conversation, usually for a significant period or permanently."
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "An act of saying farewell; the moment or occasion of parting."
+        ]
+      }
+    ],
+    "examples": [
+      "Goodbye! I'll see you next week.",
+      "He waved goodbye as the bus pulled away.",
+      "Saying goodbye to old friends can be difficult."
+    ],
+    "chinese_examples": [
+      "再见！下周见。",
+      "他在公交车开走的时候挥手告别。",
+      "和老朋友告别很难。"
+    ],
+    "usage_notes": "'Goodbye' is a formal way to bid farewell. In casual situations, people often use shorter forms such as 'bye', 'bye-bye', 'see you', or 'take care'. 'Goodbye' may sound serious or final if used in everyday conversations. It is suitable for formal writing and speech or when partings are significant or potentially long-term.",
+    "is_slang": false
+  },
+  "nice to meet you": {
+    "word": "Nice to meet you",
+    "phonetic": "/naɪs tuː miːt juː/",
+    "chinese": "很高兴见到你",
+    "pinyin": "hěn gāo xìng jiàn dào nǐ",
+    "meanings": [
+      {
+        "part_of_speech": "Phrase",
+        "definitions": [
+          "A polite expression used when you are introduced to someone for the first time, or when you meet someone you haven't met before."
+        ]
+      }
+    ],
+    "examples": [
+      "A: Hi, I'm Sarah. B: Nice to meet you, Sarah.",
+      "Nice to meet you! I've heard a lot about you."
+    ],
+    "chinese_examples": [
+      "A：你好，我是Sarah。B：很高兴见到你，Sarah。",
+      "很高兴见到你！我早就听说过你。"
+    ],
+    "usage_notes": "'Nice to meet you' is a standard and polite greeting in English when meeting someone for the first time. In response, people often say 'Nice to meet you too' or 'Pleased to meet you'. If you are sending an email or message before meeting in person, it's better to say 'Nice to meet you' after you have actually met. In more formal situations, 'Pleased to meet you' can also be used.",
+    "is_slang": false
+  },
+  "greetings": {
+    "word": "greetings",
+    "phonetic": "/ˈɡriːtɪŋz/",
+    "chinese": "问候；致意",
+    "pinyin": "wèn hòu; zhì yì",
+    "meanings": [
+      {
+        "part_of_speech": "noun (plural)",
+        "definitions": [
+          "Words or gestures used to say hello or to express good wishes at the start of a communication."
+        ]
+      },
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "A polite or friendly word to begin a letter, speech, or conversation; used as a salutation."
+        ]
+      }
+    ],
+    "examples": [
+      "He sent his greetings to everyone at the conference.",
+      "Greetings! How can I help you today?",
+      "She received greetings from her relatives abroad."
+    ],
+    "chinese_examples": [
+      "他向会议上的每个人致以问候。",
+      "问候！我今天能帮您做些什么？",
+      "她收到了来自国外亲戚的问候。"
+    ],
+    "usage_notes": "'Greetings' is most often used in formal or semi-formal situations, such as in letters, emails, and official events. As a noun, it usually refers to an act or expression of greeting. As an interjection, it's a somewhat formal or old-fashioned way to say 'hello.' In everyday spoken English, people usually say 'hello,' 'hi,' or 'hey.'",
+    "is_slang": false
+  },
+  "hey": {
+    "word": "Hey",
+    "phonetic": "/heɪ/",
+    "chinese": "嘿；喂；嗨",
+    "pinyin": "hēi",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "definitions": [
+          "used to attract someone's attention, greet someone, or express surprise, interest, or annoyance.",
+          "an informal greeting (similar to 'hello')."
+        ]
+      }
+    ],
+    "examples": [
+      "Hey, how are you doing?",
+      "Hey! Watch out!",
+      "Hey, did you finish the homework?"
+    ],
+    "chinese_examples": [
+      "嘿，你好吗？",
+      "喂！小心点！",
+      "嗨，你做完作业了吗？"
+    ],
+    "usage_notes": "'Hey' is a casual, informal way to greet people, get attention, or express surprise. It is commonly used in spoken English and text messaging, but is not suitable for formal situations. It can sometimes come across as abrupt or rude if used inappropriately, especially with strangers or in formal emails.",
+    "is_slang": false
+  },
+  "what's up?": {
+    "word": "What's up?",
+    "phonetic": "[wʌts ʌp]",
+    "chinese": "你好吗？/怎么了？/发生了什么？",
+    "pinyin": "nǐ hǎo ma? / zěn me le? / fā shēng le shén me?",
+    "meanings": [
+      {
+        "part_of_speech": "phrase",
+        "definitions": [
+          "(informal greeting) Used to ask how someone is or what they are doing.",
+          "Can also be used to inquire if something is wrong or if there is any news or issue."
+        ]
+      }
+    ],
+    "examples": [
+      "Hey, what's up? Long time no see!",
+      "You look worried. What's up?",
+      "What's up with the meeting? Has it been rescheduled?"
+    ],
+    "chinese_examples": [
+      "嘿，你好吗？好久不见。",
+      "你看起来很担心，怎么了？",
+      "会议怎么了？被重新安排了吗？"
+    ],
+    "usage_notes": "'What's up?' is an informal greeting primarily used in casual conversation, especially in American English. It is similar to 'How are you?' or 'What's going on?'. The typical response is either to say 'Not much', 'Nothing much', or to share what you are doing. It can also be used to check if something is wrong when someone looks upset. Avoid using this phrase in very formal situations or with people you do not know well. The phrase is often used among friends, peers, or people of a similar age group.",
+    "is_slang": true
+  },
+  "long time no see": {
+    "word": "Long time no see",
+    "phonetic": "lɒŋ taɪm nəʊ siː",
+    "chinese": "好久不见",
+    "pinyin": "hǎo jiǔ bú jiàn",
+    "meanings": [
+      {
+        "part_of_speech": "phrase",
+        "definitions": [
+          "(informal) Used as a greeting to someone you have not seen for a long time."
+        ]
+      }
+    ],
+    "examples": [
+      "Hey! Long time no see! How have you been?",
+      "Long time no see. What have you been up to lately?"
+    ],
+    "chinese_examples": [
+      "嘿！好久不见！你最近怎么样？",
+      "好久不见。你最近在忙什么？"
+    ],
+    "usage_notes": "'Long time no see' is an informal greeting, often said with a sense of pleasant surprise when encountering someone after a long period apart. It is used in both spoken and written English, usually in friendly or casual situations. Despite its popularity, the phrase is grammatically nonstandard; it was likely inspired by direct translations from Chinese or Native American English, but has become an accepted idiom in everyday use. It is not appropriate in formal writing or very formal situations.",
+    "is_slang": false
+  },
+  "bread": {
+    "word": "bread",
+    "phonetic": "/brɛd/",
+    "chinese": "面包",
+    "pinyin": "miànbāo",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A staple food prepared from a dough of flour and water, usually by baking.",
+          "Money (slang, mainly US/UK informal)."
+        ]
+      },
+      {
+        "part_of_speech": "verb (rare, not commonly used)",
+        "definitions": [
+          "To coat with breadcrumbs before cooking (culinary)."
+        ]
+      }
+    ],
+    "examples": [
+      "Could you please pass me the bread?",
+      "He earns enough bread to support his family.",
+      "The chicken needs to be breaded before frying."
+    ],
+    "chinese_examples": [
+      "你能把面包递给我吗？",
+      "他挣的钱足够养活全家。",
+      "炸鸡之前需要先裹上面包屑。"
+    ],
+    "usage_notes": "The most common meaning of 'bread' refers to the food made from flour. As slang for 'money', it is informal and often used in casual conversation, mainly in American and British English. The verb 'to bread' is mostly used in cooking contexts, meaning to coat with breadcrumbs. When using 'bread' to mean money, be aware that it is less formal.",
+    "is_slang": false
+  },
+  "rice": {
+    "word": "rice",
+    "phonetic": "/raɪs/",
+    "chinese": "米饭；大米",
+    "pinyin": "mǐ fàn; dà mǐ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "the small white or brown grains from a cereal plant that are cooked and eaten as food, especially in Asian countries",
+          "the plant on which these grains grow"
+        ]
+      },
+      {
+        "part_of_speech": "verb (rare, mainly culinary)",
+        "definitions": [
+          "to pass food (especially cooked potatoes) through a ricer to make it fine and fluffy"
+        ]
+      }
+    ],
+    "examples": [
+      "Rice is a staple food in many Asian countries.",
+      "She bought a bag of rice at the supermarket.",
+      "The chef riced the potatoes to make them smoother."
+    ],
+    "chinese_examples": [
+      "米饭是亚洲许多国家的主食。",
+      "她在超市买了一袋大米。",
+      "厨师用压泥器把土豆压成细末。"
+    ],
+    "usage_notes": "'Rice' can refer to both the uncooked grain (大米) and the cooked food (米饭), but context usually makes the meaning clear. In English, 'rice' is an uncountable noun when talking about the food (you don't say 'a rice', but 'a bowl of rice' or 'some rice'). The verb 'to rice' is rare and mostly used in culinary contexts, referring to pushing food through a ricer.",
+    "is_slang": false
+  },
+  "fruit": {
+    "word": "fruit",
+    "phonetic": "/fruːt/",
+    "chinese": "水果",
+    "pinyin": "shuǐ guǒ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "The sweet and edible part of a plant that contains seeds and can be eaten as food. Example: apples, bananas, and oranges are all fruits.",
+          "A result or reward that comes from work or effort. Example: the fruits of one's labor."
+        ]
+      },
+      {
+        "part_of_speech": "verb (rare)",
+        "definitions": [
+          "To bear or produce fruit. Example: The trees are beginning to fruit."
+        ]
+      }
+    ],
+    "examples": [
+      "I eat fruit every day to stay healthy.",
+      "Autumn is the best season for harvesting fruit.",
+      "She finally enjoyed the fruits of her hard work."
+    ],
+    "chinese_examples": [
+      "我每天都吃水果保持健康。",
+      "秋天是采摘水果的最佳季节。",
+      "她终于享受到了辛勤工作的成果。"
+    ],
+    "usage_notes": "The word 'fruit' is generally used as an uncountable noun when referring to it in a general sense ('I eat fruit'), but as a countable noun when referring to types or kinds ('There are many different fruits in the basket.'). In abstract terms ('fruits of...', meaning results or rewards), it is always uncountable. As a verb, 'fruit' is rare and usually used in scientific or agricultural contexts. The plural 'fruits' is mostly used to indicate types or varieties, rather than more pieces of fruit. In informal contexts, 'fruit' can be a slang term, but it is considered offensive in that usage.",
+    "is_slang": false
+  },
+  "vegetable": {
+    "word": "vegetable",
+    "phonetic": "/ˈvedʒ.tə.bəl/",
+    "chinese": "蔬菜",
+    "pinyin": "shū cài",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a plant or part of a plant used as food, typically as an accompaniment to meat or fish, such as a cabbage, potato, carrot, or bean. （可食用的）蔬菜",
+          "(informal, sometimes offensive) a person who is so severely mentally or physically impaired as to be incapable of normal activity, especially as a result of brain damage. （俚语，冒犯性用法）植物人"
+        ]
+      }
+    ],
+    "examples": [
+      "We should eat more vegetables to stay healthy.",
+      "Carrots are my favorite vegetable.",
+      "After the accident, he was left a vegetable."
+    ],
+    "chinese_examples": [
+      "我们应该多吃蔬菜以保持健康。",
+      "胡萝卜是我最喜欢的蔬菜。",
+      "事故后，他成了植物人。"
+    ],
+    "usage_notes": "\"Vegetable\" is most commonly used to refer to edible plants or parts of plants. The informal, metaphorical use to describe a person in a comatose or unresponsive state is considered insensitive and can be offensive. Always use caution with the second meaning.",
+    "is_slang": false
+  },
+  "chicken": {
+    "word": "chicken",
+    "phonetic": "/ˈtʃɪk.ɪn/",
+    "chinese": "鸡；鸡肉",
+    "pinyin": "jī; jī ròu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A kind of domesticated bird kept for its eggs or meat.",
+          "The meat of a chicken, used as food."
+        ]
+      },
+      {
+        "part_of_speech": "noun (informal)",
+        "definitions": [
+          "A person who is easily frightened or cowardly."
+        ]
+      },
+      {
+        "part_of_speech": "adjective (informal)",
+        "definitions": [
+          "Cowardly; lacking courage."
+        ]
+      }
+    ],
+    "examples": [
+      "We had roast chicken for dinner.",
+      "The chicken laid three eggs this morning.",
+      "Don't be such a chicken—it's just a roller coaster!",
+      "He chickened out of the jump at the last moment."
+    ],
+    "chinese_examples": [
+      "我们晚餐吃了烤鸡。",
+      "这只母鸡今天早上下了三个蛋。",
+      "别那么胆小，比喻说‘别做胆小鬼’，只是一个过山车而已！"
+    ],
+    "usage_notes": "As a noun, 'chicken' commonly refers to both the bird and its meat. When referring to a person as a 'chicken', it informally means they are cowardly. The verb phrase 'chicken out' means to decide not to do something because of fear. In slang or informal contexts, calling someone a 'chicken' can be teasing or mildly insulting. Also, 'chicken' is rarely used as an adjective except in informal expressions.",
+    "is_slang": false
   }
 }

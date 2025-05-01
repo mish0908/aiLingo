@@ -60,9 +60,6 @@
                                 {% endif %}
                             </div>
                         </div>
-                        {% if word.image_url %}
-                        <img src="{{ word.image_url }}" alt="{{ word.word }}" class="w-32 h-32 object-cover rounded-lg">
-                        {% endif %}
                     </div>
 
                     <div class="mt-4">
@@ -105,9 +102,13 @@
 
         <!-- Navigation Buttons -->
         <div class="mt-8 flex justify-between">
-            <a href="/vocab/{{ category }}" 
+            <a href="/vocab" 
                class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
                 Back to Category
+            </a>
+            <a href="/vocab/{{ category }}" 
+               class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
+                Start New Study Session
             </a>
             <button id="new-words-btn" class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
                 New Random Words
@@ -129,13 +130,38 @@
         async function fetchNewWords() {
             const url = new URL('/api/random_words', window.location.origin);
             const params = new URLSearchParams(window.location.search);
-            url.searchParams.set('word_count', 5);
+            url.searchParams.set('word_count', 10); // Request more words to ensure we have enough unique ones
             if (params.has('category')) {
                 url.searchParams.set('category', params.get('category'));
             }
-            const res = await fetch(url);
-            const data = await res.json();
-            appendWords(data.words);
+            
+            // Get all currently displayed words (more robust selector)
+            const existingWordElements = document.querySelectorAll('main .grid h2.text-2xl.font-bold.text-pink-600');
+            const existingWords = Array.from(existingWordElements).map(el => el.textContent.trim().toLowerCase());
+            
+            console.log("Existing words:", existingWords); // Debug logging
+            
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                
+                // Filter out words that already exist (with better logging)
+                const newWords = data.words.filter(wordObj => {
+                    const isNew = !existingWords.includes(wordObj.word.toLowerCase());
+                    console.log(`Word: ${wordObj.word}, Is new: ${isNew}`);
+                    return isNew;
+                });
+                
+                console.log(`Found ${newWords.length} new words out of ${data.words.length} total`);
+                
+                if (newWords.length > 0) {
+                    appendWords(newWords);
+                } else {
+                    alert("No new words available at the moment. Try a different category or refresh the page.");
+                }
+            } catch (error) {
+                console.error("Error fetching new words:", error);
+            }
         }
 
         function appendWords(words) {

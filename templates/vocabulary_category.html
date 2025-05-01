@@ -77,9 +77,6 @@
                                 {% endif %}
                             </div>
                         </div>
-                        {% if word.image_url %}
-                        <img src="{{ word.image_url }}" alt="{{ word.word }}" class="w-32 h-32 object-cover rounded-lg">
-                        {% endif %}
                     </div>
 
                     <div class="mt-4">
@@ -118,6 +115,12 @@
                 </div>
             </div>
             {% endfor %}
+        </div>
+        <div class="mt-8 flex justify-between">
+            <a href="/vocab" 
+               class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
+                Back to Category
+            </a>
         </div>
     </main>
 
