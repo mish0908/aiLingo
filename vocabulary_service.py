@@ -32,6 +32,7 @@ class VocabularyService:
         self.openrouter_api_key = os.getenv('OPENROUTER_API_KEY')
         self.client = OpenAI(api_key=self.openrouter_api_key, base_url="https://openrouter.ai/api/v1")
         self.model = "openai/gpt-4.1"
+        load_dotenv()
         self.cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'word_cache.json')
         self.word_cache = self._load_cache()
         
@@ -175,7 +176,7 @@ class VocabularyService:
             print(f"Error getting category words: {str(e)}")
             return self._get_predefined_words(category, limit)
 
-    def _get_predefined_words(self, category: str, limit: int) -> List[Dict]:
+    def _get_predefined_words(self, category: str, limit: int = 5) -> List[Dict]:
         """
         Get fallback words for a category using a simpler AI prompt when the main method fails
         """
