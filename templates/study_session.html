@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ category.title() }} Vocabulary - aiLingo</title>
+    <title>Study Session - aiLingo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-800 font-sans">
@@ -27,28 +27,11 @@
 
     <!-- ==== Header ==== -->
     <header class="bg-pink-600 text-white text-center py-8">
-        <h1 class="text-4xl font-bold">{{ category.title() }} Vocabulary</h1>
-        <p class="mt-4 text-xl">Learn essential {{ category.lower() }} vocabulary with examples and images.</p>
-        
-        <!-- Study Session Generator -->
-        <div class="mt-8 max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4">Generate Study Session</h2>
-            <form action="/study" method="GET" class="space-y-4">
-                <input type="hidden" name="category" value="{{ category }}">
-                <div class="flex items-center space-x-4">
-                    <label for="word_count" class="text-gray-800">Number of words:</label>
-                    <input type="number" id="word_count" name="word_count" min="1" max="20" value="5" 
-                           class="w-20 px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-800">
-                </div>
-                <button type="submit" 
-                        class="w-full bg-pink-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition">
-                    Start Study Session
-                </button>
-            </form>
-        </div>
+        <h1 class="text-4xl font-bold">Study Session</h1>
+        <p class="mt-4 text-xl">Practice your vocabulary with these {{ word_count }} words</p>
     </header>
 
-    <!-- ==== Vocabulary List ==== -->
+    <!-- ==== Study Session ==== -->
     <main class="max-w-4xl mx-auto mt-12 mb-16 px-4">
         <div class="grid gap-8">
             {% for word in words %}
@@ -119,6 +102,17 @@
             </div>
             {% endfor %}
         </div>
+
+        <!-- Navigation Buttons -->
+        <div class="mt-8 flex justify-between">
+            <a href="/vocab/{{ category }}" 
+               class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
+                Back to Category
+            </a>
+            <button id="new-words-btn" class="bg-pink-600 text-white py-2 px-6 rounded-lg hover:bg-pink-700 transition">
+                New Random Words
+            </button>
+        </div>
     </main>
 
     <!-- ==== Footer ==== -->
@@ -131,6 +125,60 @@
             const audio = new Audio(url);
             audio.play();
         }
+
+        async function fetchNewWords() {
+            const url = new URL('/api/random_words', window.location.origin);
+            const params = new URLSearchParams(window.location.search);
+            url.searchParams.set('word_count', 5);
+            if (params.has('category')) {
+                url.searchParams.set('category', params.get('category'));
+            }
+            const res = await fetch(url);
+            const data = await res.json();
+            appendWords(data.words);
+        }
+
+        function appendWords(words) {
+            const main = document.querySelector('main .grid');
+            if (!main) return;
+            main.innerHTML += words.map(word => `
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="flex items-center space-x-4">
+                                    <h2 class="text-2xl font-bold text-pink-600">${word.word}</h2>
+                                    ${word.audio_url ? `<button onclick=\"playAudio('${word.audio_url}')\" class=\"text-pink-600 hover:text-pink-800\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\" /></svg></button>` : ''}
+                                </div>
+                                ${word.phonetic ? `<p class=\"text-gray-600 mt-1\">${word.phonetic}</p>` : ''}
+                                <div class=\"mt-2\">
+                                    <p class=\"text-xl text-gray-800\">${word.chinese || ''}</p>
+                                    ${word.pinyin ? `<p class=\"text-gray-600\">${word.pinyin}</p>` : ''}
+                                </div>
+                            </div>
+                            ${word.image_url ? `<img src=\"${word.image_url}\" alt=\"${word.word}\" class=\"w-32 h-32 object-cover rounded-lg\">` : ''}
+                        </div>
+                        <div class=\"mt-4\">
+                            ${(word.meanings || []).map(meaning => `
+                            <div class=\"mb-4\">
+                                <h3 class=\"text-lg font-semibold text-gray-700\">${meaning.part_of_speech}</h3>
+                                <ul class=\"list-disc list-inside mt-2 space-y-2\">
+                                    ${(meaning.definitions || []).map(definition => `<li class=\"text-gray-600\">${definition}</li>`).join('')}
+                                </ul>
+                            </div>
+                            `).join('')}
+                        </div>
+                        ${word.usage_notes ? `<div class=\"mt-4\"><h3 class=\"text-lg font-semibold text-gray-700\">Usage Notes:</h3><p class=\"text-gray-600 mt-2\">${word.usage_notes}</p></div>` : ''}
+                        ${(word.examples && word.examples.length) ? `<div class=\"mt-4\"><h3 class=\"text-lg font-semibold text-gray-700\">Examples:</h3><ul class=\"list-disc list-inside mt-2 space-y-2\">${word.examples.map((ex, i) => `<li class=\"text-gray-600\"><p class=\"italic\">\"${ex}\"</p><p class=\"text-gray-500 mt-1\">\"${(word.chinese_examples && word.chinese_examples[i]) || ''}\"</p></li>`).join('')}</ul></div>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        document.getElementById('new-words-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            fetchNewWords();
+        });
     </script>
 </body>
-</html> 
+</html>

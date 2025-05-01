@@ -1,0 +1,1018 @@
+{
+  "company": {
+    "word": "company",
+    "phonetic": "/ˈkʌmpəni/",
+    "chinese": "公司；陪伴；宾客",
+    "pinyin": "gōng sī; péi bàn; bīn kè",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "an organization that sells goods or services in order to make money. （公司）",
+          "the fact of being with a person or people, or the people you are with. （陪伴）",
+          "guests or people visiting. （宾客）"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "(old-fashioned or literary) To accompany someone. [陪伴某人，结伴而行]"
+        ]
+      }
+    ],
+    "examples": [
+      "She works for a big company in Shanghai.",
+      "Thank you for your company last night.",
+      "We have company coming over for dinner."
+    ],
+    "chinese_examples": [
+      "她在上海一家大公司工作。",
+      "感谢你昨晚的陪伴。",
+      "我们今晚有客人来做客。"
+    ],
+    "usage_notes": "'Company' as a noun meaning 'business organization' is countable ('a company'). When referring to 'the presence of others', it is generally uncountable ('in company', 'your company'). The verb form is rare and mainly used in old-fashioned or literary contexts. Common phrases: 'keep someone company' (陪伴某人), 'in good company' (有好伴侣), 'out of company' (单独)。",
+    "is_slang": false
+  },
+  "profit": {
+    "word": "profit",
+    "phonetic": "/ˈprɒfɪt/",
+    "chinese": "利润；收益；有益于",
+    "pinyin": "lì rùn; shōu yì; yǒu yì yú",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A financial gain, especially the difference between the amount earned and the amount spent in buying, operating, or producing something.",
+          "The advantage or benefit gained from something."
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "Obtain a financial advantage or benefit.",
+          "To be beneficial or useful to someone."
+        ]
+      }
+    ],
+    "examples": [
+      "The company made a huge profit last year.",
+      "She sold her old car at a profit.",
+      "Farmers can profit from this new technology."
+    ],
+    "chinese_examples": [
+      "公司去年获得了巨大的利润。",
+      "她卖旧车赚了一笔钱。",
+      "农民可以从这种新技术中受益。"
+    ],
+    "usage_notes": "'Profit' is both a noun and a verb. As a noun, it often refers to financial gain in business contexts. As a verb, it means to gain benefit or advantage, either financially or otherwise. The word is not slang and is used in both formal and informal contexts. It should not be confused with 'prophet,' which refers to a religious messenger.",
+    "is_slang": false
+  },
+  "meeting": {
+    "word": "meeting",
+    "phonetic": "/ˈmiː.tɪŋ/",
+    "chinese": "会议；集会；会面",
+    "pinyin": "huì yì; jí huì; huì miàn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "an occasion when people come together, either in person or online, to discuss something, make decisions, or share information",
+          "an event where a group of people gather for a particular purpose, such as business, social, or sports activities",
+          "the act of coming together or encounter with another person"
+        ]
+      }
+    ],
+    "examples": [
+      "We have a meeting at 10 o’clock tomorrow morning.",
+      "The annual shareholders’ meeting will be held next week.",
+      "Their meeting was purely accidental."
+    ],
+    "chinese_examples": [
+      "我们明天上午10点有个会议。",
+      "年度股东大会将在下周举行。",
+      "他们的会面纯属偶然。"
+    ],
+    "usage_notes": "'Meeting' is usually used for formal or organized gatherings such as in business or academic settings. It can be used for both planned and spontaneous encounters, though in formal English it most commonly refers to scheduled gatherings. In business, phrases like 'have a meeting', 'hold a meeting', or 'attend a meeting' are commonly used. Unlike 'appointment', which is typically one-on-one, 'meeting' often involves several people. The plural form is 'meetings'.",
+    "is_slang": false
+  },
+  "contract": {
+    "word": "contract",
+    "phonetic": "/ˈkɒn.trækt/ (noun), /kənˈtrækt/ (verb)",
+    "chinese": "合同，契约；收缩，感染（疾病）",
+    "pinyin": "hé tóng, qì yuē; shōu suō, gǎn rǎn (jíbìng)",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.",
+          "A legal document that states and explains a formal agreement between two different people or groups."
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "To make a legal agreement, as in to enter into a contract.",
+          "To become smaller, shorter, or tighter.",
+          "To catch or develop (a disease or habit)."
+        ]
+      }
+    ],
+    "examples": [
+      "The company won the contract to build the new school.",
+      "By signing the contract, you agree to the terms listed above.",
+      "Metals contract as they cool.",
+      "She contracted a cold last week."
+    ],
+    "chinese_examples": [
+      "公司赢得了建新学校的合同。",
+      "签署合同即表示你同意上面的条款。",
+      "金属在冷却时会收缩。",
+      "她上周感染了感冒。"
+    ],
+    "usage_notes": "'Contract' as a noun has the stress on the first syllable (/ˈkɒn.trækt/), while as a verb, the stress shifts to the second syllable (/kənˈtrækt/). In business contexts, it commonly refers to legally binding agreements. As a verb, it can also mean 'to shrink' or 'to acquire a disease'. Be sure to use the correct pronunciation and sense according to the context.",
+    "is_slang": false
+  },
+  "invoice": {
+    "word": "invoice",
+    "phonetic": "/ˈɪn.vɔɪs/",
+    "chinese": "发票；发货单",
+    "pinyin": "fā piào; fā huò dān",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a list of goods sent or services provided, with a statement of the sum due for these; a bill.（发票，发货单，发货清单，一种账单。）"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to send an invoice to someone.（开发票给某人；开账单。）"
+        ]
+      }
+    ],
+    "examples": [
+      "We received the invoice for our office supplies yesterday.",
+      "Please make sure to keep a copy of each invoice for your records.",
+      "The company invoiced us for the repair work."
+    ],
+    "chinese_examples": [
+      "我们昨天收到了办公用品的发票。",
+      "请确保保存每一张发票的副本以备查阅。",
+      "公司为维修工作给我们开了发票。"
+    ],
+    "usage_notes": "'Invoice' is primarily used in business, accounting, and commerce. As a noun, it refers to the document listing goods or services supplied and their cost. As a verb, it means to send such a document. An invoice is generally more formal and detailed than a simple receipt and is used as a request for payment. It is not slang.",
+    "is_slang": false
+  },
+  "investment": {
+    "word": "investment",
+    "phonetic": "/ɪnˈvɛstmənt/",
+    "chinese": "投资；投入",
+    "pinyin": "tóu zī; tóu rù",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "The act of putting money, effort, time, etc. into something to make a profit or achieve a result.",
+          "A sum of money invested in something.",
+          "Something that is worth buying because it may be profitable or useful in the future."
+        ]
+      }
+    ],
+    "examples": [
+      "His investment in the company paid off after several years.",
+      "Education is one of the best investments you can make in your future.",
+      "The government increased investment in public transportation."
+    ],
+    "chinese_examples": [
+      "他对这家公司的投资在几年后取得了回报。",
+      "教育是你能为自己未来做的最好的投资之一。",
+      "政府增加了对公共交通的投资。"
+    ],
+    "usage_notes": "'Investment' is a formal term used primarily in finance and economics. It can refer to money, time, or resources put into something with an expectation of a return. Not restricted to just financial contexts: 'investment' can also refer to emotional or personal commitment. The word is not slang, and it is commonly used in both formal and informal conversations to discuss financial planning, business, and personal growth.",
+    "is_slang": false
+  },
+  "employee": {
+    "word": "employee",
+    "phonetic": "/ɪmˈplɔɪiː/",
+    "chinese": "雇员，员工",
+    "pinyin": "gù yuán, yuán gōng",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a person who is paid to work for someone else or for a company"
+        ]
+      }
+    ],
+    "examples": [
+      "The company has over 500 employees.",
+      "She is a dedicated employee and always completes her work on time.",
+      "All employees must attend the training session next week."
+    ],
+    "chinese_examples": [
+      "公司有五百多名员工。",
+      "她是一名敬业的雇员，总是按时完成工作。",
+      "所有雇员都必须参加下周的培训课程。"
+    ],
+    "usage_notes": "'Employee' refers to someone who works for an employer, usually under a formal agreement or contract, and is paid a wage or salary. This is different from 'employer' (the person who hires) and 'self-employed' (someone who works for themselves). It is a formal word often used in business and legal contexts.",
+    "is_slang": false
+  },
+  "customer": {
+    "word": "customer",
+    "phonetic": "/ˈkʌstəmə(r)/",
+    "chinese": "顾客；客户",
+    "pinyin": "gù kè；kè hù",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a person or organization that buys goods or services from a shop or business",
+          "someone with whom one has dealings, especially in a business context"
+        ]
+      }
+    ],
+    "examples": [
+      "The shop has many loyal customers.",
+      "Each customer receives a free gift with every purchase.",
+      "We always try to provide excellent service to our customers."
+    ],
+    "chinese_examples": [
+      "这家店有很多忠实顾客。",
+      "每位顾客购物都会收到一个免费礼品。",
+      "我们总是尽力为客户提供优质的服务。"
+    ],
+    "usage_notes": "\"Customer\" usually refers to someone who buys or receives goods, services, or products from a business, especially in a retail or service context. It is different from \"client\", which is often used for professional services (like legal or consulting services). Sometimes, \"customer\" can also be used informally to refer to a person in general, as in 'He's a tough customer' (meaning a difficult person).",
+    "is_slang": false
+  },
+  "revenue": {
+    "word": "revenue",
+    "phonetic": "/ˈrevənjuː/ (UK), /ˈrevənuː/ (US)",
+    "chinese": "收入，收益，税收",
+    "pinyin": "shōurù, shuìshōu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "The total income generated by a business, government, or an organization, usually from its normal business activities, before any expenses are subtracted.",
+          "Money that a government receives from taxes or other sources."
+        ]
+      }
+    ],
+    "examples": [
+      "The company’s annual revenue increased by 10% last year.",
+      "The government relies on tax revenue to fund public services."
+    ],
+    "chinese_examples": [
+      "该公司的年度收入去年增长了10%。",
+      "政府依靠税收收入来资助公共服务。"
+    ],
+    "usage_notes": "'Revenue' is most commonly used in business and government contexts. It typically refers to gross income and is different from 'profit', which is the income left after all costs and expenses are subtracted. The word is not slang and is primarily formal. It is often used with modifiers such as 'total revenue', 'annual revenue', or 'tax revenue'.",
+    "is_slang": false
+  },
+  "manager": {
+    "word": "manager",
+    "phonetic": "ˈmænɪdʒər",
+    "chinese": "经理；管理者",
+    "pinyin": "jīng lǐ; guǎn lǐ zhě",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A person responsible for controlling or administering all or part of a company or similar organization.",
+          "A person who is in charge of a department or team and oversees the work of others.",
+          "(Sports) A person responsible for training and organizing a sports team."
+        ]
+      }
+    ],
+    "examples": [
+      "The manager scheduled a meeting with the team.",
+      "She was promoted to store manager last year.",
+      "The football manager selected the players for the match."
+    ],
+    "chinese_examples": [
+      "经理安排了与团队的会议。",
+      "她去年被提升为店长。",
+      "足球队经理挑选了比赛队员。"
+    ],
+    "usage_notes": "'Manager' is commonly used in business, retail, hospitality, and sports contexts. It can refer to someone at various levels of authority, from lower management to senior management. Not to be confused with 'leader', which emphasizes influence rather than formal authority. In British English, 'manager' is often used to refer to the coach or head of a football (soccer) team.",
+    "is_slang": false
+  },
+  "market": {
+    "word": "market",
+    "phonetic": "/ˈmɑːrkɪt/",
+    "chinese": "市场",
+    "pinyin": "shìchǎng",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A regular gathering place for people to buy and sell food, goods, or services. 例：She bought fresh vegetables at the market.",
+          "The demand for a particular product or service. 例：There is a big market for smartphones in China.",
+          "A place or area in which commercial dealings are conducted."
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "To advertise or promote something for sale. 例：The company markets its products worldwide."
+        ]
+      }
+    ],
+    "examples": [
+      "She visited the market to buy fresh fruit.",
+      "The overseas market for electric cars is growing.",
+      "The company plans to market a new brand of shoes next year."
+    ],
+    "chinese_examples": [
+      "她去市场买新鲜水果。",
+      "电动汽车的海外市场正在扩大。",
+      "公司计划明年推销一个新品牌的鞋子。"
+    ],
+    "usage_notes": "As a noun, 'market' refers both to a physical place (marketplace) and the concept of buying and selling (financial market, job market, etc). As a verb, it means to promote or sell a product. It is not slang. Common collocations include 'market share', 'market value', 'stock market', and 'go to market'.",
+    "is_slang": false
+  },
+  "budget": {
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "chinese": "预算",
+    "pinyin": "yù suàn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "an estimate of income and expenditure for a set period of time",
+          "the amount of money available for a particular purpose"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to plan the use of (money or resources) carefully by estimating expenses and income",
+          "to allot or provide a particular amount of money for something in a budget"
+        ]
+      },
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "(used before a noun) inexpensive; suitable for people who do not want to spend much money"
+        ]
+      }
+    ],
+    "examples": [
+      "We need to set a budget for our holiday.",
+      "You should budget your expenses if you want to save money.",
+      "This is a budget hotel, ideal for travelers with limited funds."
+    ],
+    "chinese_examples": [
+      "我们需要为假期制定一个预算。",
+      "如果你想存钱，你应该对开销做预算。",
+      "这是一家经济型酒店，非常适合预算有限的旅行者。"
+    ],
+    "usage_notes": "'Budget' is commonly used in financial contexts. As a verb, it often takes the form 'budget for' (e.g. 'We need to budget for unexpected costs.'). As an adjective, it is usually attributive, placed before a noun (e.g. 'budget airline'). 'Budget' hotels or airlines are cheap or economical, but the word itself is not slang.",
+    "is_slang": false
+  },
+  "cool": {
+    "word": "cool",
+    "phonetic": "/kuːl/",
+    "chinese": "酷，凉爽，冷静",
+    "pinyin": "kù, liáng shuǎng, lěng jìng",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "slightly cold; not warm or hot",
+          "calm and not worried",
+          "fashionable, attractive, or impressive (informal)"
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a slightly cold temperature",
+          "the quality of being calm and in control (mainly in phrases like 'keep your cool')"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to make or become less warm (to cool)"
+        ]
+      }
+    ],
+    "examples": [
+      "It’s cool outside, so wear a jacket.",
+      "She stayed cool during the interview.",
+      "That new song is really cool!",
+      "Let the soup cool before serving."
+    ],
+    "chinese_examples": [
+      "外面有些凉爽，穿件夹克吧。",
+      "她在面试时非常冷静。",
+      "那首新歌真酷！",
+      "上菜前让汤冷却一下。"
+    ],
+    "usage_notes": "'Cool' is used informally to mean 'good', 'impressive', or 'fashionable', especially among young people. It can also describe temperature or someone's calm attitude. As slang, it is very common in everyday speech. The use of 'cool' to mean 'impressive' may sometimes sound casual or laid-back, so it is less suitable for formal writing. The comparative form is 'cooler', and the superlative is 'coolest'.",
+    "is_slang": true
+  },
+  "lit": {
+    "word": "lit",
+    "phonetic": "lɪt",
+    "chinese": "点燃的，照亮的；很酷的，很棒的（俚语）",
+    "pinyin": "diǎnrán de, zhàoliàng de; hěn kù de, hěn bàng de (lǐyǔ)",
+    "meanings": [
+      {
+        "part_of_speech": "verb (past and past participle of light)",
+        "definitions": [
+          "点燃，点亮（light 的过去式和过去分词）",
+          "用光照亮"
+        ]
+      },
+      {
+        "part_of_speech": "adjective (literary/literal)",
+        "definitions": [
+          "被点燃的，点着的",
+          "被照亮的"
+        ]
+      },
+      {
+        "part_of_speech": "adjective (slang)",
+        "definitions": [
+          "很棒的，极好的，超酷的（俚语）",
+          "非常有趣或者气氛高涨的"
+        ]
+      }
+    ],
+    "examples": [
+      "He lit the candle and placed it on the table.",
+      "The room was beautifully lit by the sunrise.",
+      "That party was lit!",
+      "Her eyes lit up when she saw the present."
+    ],
+    "chinese_examples": [
+      "他点燃了蜡烛并把它放在桌上。",
+      "这个房间被晨曦照亮得很漂亮。",
+      "那个派对太棒了！（超嗨！）",
+      "看到礼物时她的眼睛亮了起来。"
+    ],
+    "usage_notes": "1. 'Lit' 是动词 'light' 的过去式和过去分词。现代英语中 'lighted' 也可以用，但 'lit' 更常见。\n2. 在文学和日常表达中，'lit' 作形容词常指“被点燃的”或“被照亮的”。\n3. 在青少年和网络俚语中，'lit' 表示某物非常酷、精彩、热闹，多用于派对、活动等场景。该用法很口语化，正式场合避免使用。",
+    "is_slang": true
+  },
+  "chill": {
+    "word": "chill",
+    "phonetic": "/tʃɪl/",
+    "chinese": "寒意，寒冷；冷静，放松",
+    "pinyin": "hán yì, hán lěng; lěng jìng, fàng sōng",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A feeling of coldness, especially an unpleasant one.",
+          "A sudden feeling of fear or worry.",
+          "(informal) A relaxing or easygoing time."
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "To make or become cold.",
+          "(informal) To calm down or relax."
+        ]
+      },
+      {
+        "part_of_speech": "adjective (informal)",
+        "definitions": [
+          "(of a person or atmosphere) relaxed, easygoing, not easily upset."
+        ]
+      }
+    ],
+    "examples": [
+      "There was a chill in the air last night.（昨晚空气中有种寒意。）",
+      "Let’s put the drinks in the fridge to chill.（我们把饮料放进冰箱里冷一冷。）",
+      "Just chill, everything will be okay.（冷静点，一切都会好的。）",
+      "He's a really chill guy.（他是个很随和的人。）"
+    ],
+    "chinese_examples": [
+      "天气里有一丝寒意。",
+      "把饮料冷藏一下。",
+      "放轻松，别紧张。",
+      "他是个很放松的人。"
+    ],
+    "usage_notes": "'Chill' is widely used in informal English, especially by young people, to mean 'relax' or 'calm down.' As an adjective, 'chill' describes someone or something that is relaxed or easygoing. In its slang sense, it is generally positive.",
+    "is_slang": true
+  },
+  "hang out": {
+    "word": "hang out",
+    "phonetic": "/hæŋ aʊt/",
+    "chinese": "闲逛，出去玩，闲坐，泡在某处",
+    "pinyin": "xián guàng, chū qù wán, xián zuò, pào zài mǒu chù",
+    "meanings": [
+      {
+        "part_of_speech": "phrasal verb",
+        "definitions": [
+          "to spend time relaxing, socializing, or doing nothing in particular, often with friends or in a casual setting.",
+          "to be in a place regularly or habitually."
+        ]
+      }
+    ],
+    "examples": [
+      "Do you want to hang out this weekend?",
+      "We usually hang out at the café after class.",
+      "He likes to hang out with his friends downtown."
+    ],
+    "chinese_examples": [
+      "你周末想一起出去玩吗？",
+      "我们通常下课后在咖啡馆闲坐。",
+      "他喜欢和朋友们在市中心闲逛。"
+    ],
+    "usage_notes": "Mostly used in informal spoken English, especially among teenagers and young adults. It does not imply any romantic relationship; it simply means spending time together in a relaxed way. 'Hang out' can also refer to the place where someone often spends time (e.g., 'That's our usual hangout.').",
+    "is_slang": true
+  },
+  "dude": {
+    "word": "dude",
+    "phonetic": "/duːd/",
+    "chinese": "家伙；哥们儿；小子",
+    "pinyin": "jiā huǒ; gē men er; xiǎo zi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a man; a guy (informal, mainly used in American English)",
+          "a term used to address a male friend (informal, friendly)",
+          "(historically) an urban man who dresses in a fancy or fashionable way, sometimes used pejoratively (outdated usage)"
+        ]
+      }
+    ],
+    "examples": [
+      "Hey dude, what's up?",
+      "Some dude just called you on the phone.",
+      "The dudes are hanging out at the skate park."
+    ],
+    "chinese_examples": [
+      "嘿，哥们儿，最近怎么样？",
+      "有个家伙刚才给你打了电话。",
+      "那些小子正在滑板公园闲逛。"
+    ],
+    "usage_notes": "‘Dude’ is a very informal word, mostly used in American English, especially among young people and in casual conversation. It can be used to address both males and, more recently, females, but it still primarily refers to males. While friendly among close friends, using ‘dude’ in formal situations or with strangers may sound disrespectful or overly casual. Additionally, intonation can affect the meaning (e.g., surprise, annoyance, or greeting).",
+    "is_slang": true
+  },
+  "awesome": {
+    "word": "awesome",
+    "phonetic": "/ˈɔːsəm/",
+    "chinese": "令人敬畏的，极好的，棒极了",
+    "pinyin": "lìng rén jìngwèi de, jí hǎo de, bàng jí le",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "extremely impressive, excellent, or inspiring admiration or wonder",
+          "causing a feeling of awe (a strong emotion caused by something very impressive or frightening)"
+        ]
+      }
+    ],
+    "examples": [
+      "That mountain view is awesome!",
+      "She did an awesome job organizing the event.",
+      "The power of the storm was truly awesome."
+    ],
+    "chinese_examples": [
+      "那山景真是太棒了！",
+      "她组织这次活动做得非常棒。",
+      "风暴的威力令人敬畏。"
+    ],
+    "usage_notes": "‘Awesome’ was originally used to describe something that inspired awe, but in modern informal English, especially in American English, it’s frequently used to mean ‘very good’ or ‘impressive.’ It’s common in casual speech and writing but may sound too informal or exaggerated in formal situations.",
+    "is_slang": false
+  },
+  "vibe": {
+    "word": "vibe",
+    "phonetic": "/vaɪb/",
+    "chinese": "氛围，气氛，感觉",
+    "pinyin": "fēnwéi, qìfēn, gǎnjué",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a distinctive feeling or atmosphere that a person, place, or situation seems to give off; mood."
+        ]
+      },
+      {
+        "part_of_speech": "verb (informal)",
+        "definitions": [
+          "to enjoy oneself by listening to music, relaxing, or getting into a particular mood. (Usually used as \"vibe with\" or \"vibing.\")"
+        ]
+      }
+    ],
+    "examples": [
+      "The café has a really cozy vibe.",
+      "I just wasn't vibing with the music at the party."
+    ],
+    "chinese_examples": [
+      "这家咖啡馆的氛围很舒适。",
+      "我觉得这个派对的音乐不太对我的感觉。"
+    ],
+    "usage_notes": "'Vibe' is often used informally to talk about atmosphere, feelings, or a person's 'energy.' As a verb, it is usually used in slang form as 'vibe with' or 'vibing,' meaning to get along with someone or enjoy something, especially music or an experience. It's commonly seen in younger generations' conversations, social media, and pop culture. In formal writing, alternatives like 'atmosphere' or 'mood' are preferred.",
+    "is_slang": true
+  },
+  "savage": {
+    "word": "savage",
+    "phonetic": "/ˈsævɪdʒ/",
+    "chinese": "野蛮的，残暴的人，猛烈抨击",
+    "pinyin": "yěmán de, cānbào de rén, měngliè pēngjī",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "(of an animal or person) fierce, violent, and uncontrolled.（动物或人）凶猛的，残暴的，不受控制的。",
+          "Primitive or uncivilized. 原始的，未开化的。"
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "A brutal or vicious person. 残暴的人，野蛮人。"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "(often 'be savaged by') To attack ferociously and maul. 猛烈攻击，撕咬。",
+          "To criticize harshly. 严厉批评，猛烈抨击。"
+        ]
+      }
+    ],
+    "examples": [
+      "He made a savage attack on the opposing team.",
+      "The dog was acting like a savage beast.",
+      "The book was savaged by critics."
+    ],
+    "chinese_examples": [
+      "他对对方球队发动了猛烈的攻击。",
+      "那只狗表现得像只野兽一样。",
+      "这本书被评论家们猛烈抨击。"
+    ],
+    "usage_notes": "In informal and modern slang, 'savage' can also mean 'cool', 'impressive', or showing no mercy in a witty way, mostly among young people (e.g., 'That comeback was savage!'). Originates from an old meaning related to being wild, but this slang meaning is much newer. Using 'savage' as a noun to refer to people as 'savages' can be extremely offensive and is considered outdated and racist.",
+    "is_slang": true
+  },
+  "flex": {
+    "word": "flex",
+    "phonetic": "/flɛks/",
+    "chinese": "炫耀；弯曲；肌肉展示",
+    "pinyin": "xuàn yào; wān qū; jī ròu zhǎn shì",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to bend (something)",
+          "to tighten a muscle, especially to show it off",
+          "to show off, boast about something in a conspicuous way (slang)"
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "the act of bending something",
+          "an act of showing off or boasting, especially on social media (slang)"
+        ]
+      }
+    ],
+    "examples": [
+      "He flexed his arm muscles to impress his friends.",
+      "She likes to flex her new phone on Instagram.",
+      "The gymnast flexed her body gracefully."
+    ],
+    "chinese_examples": [
+      "他为了炫耀对朋友展示了自己的肱二头肌。",
+      "她喜欢在Instagram上炫耀她的新手机。",
+      "体操运动员优雅地弯曲了身体。"
+    ],
+    "usage_notes": "'Flex' is used both in formal and informal contexts. As a verb, 'flex' literally means to bend or contract a muscle. However, in modern slang, especially online and among young people, 'flex' means to show off or boast about something. The noun form in slang also refers to this act of showing off (e.g., \"That's a weird flex, but okay\"). It can be neutral or carry a negative tone if the display seems arrogant. When referring to muscles, it keeps its original, non-slang meaning.",
+    "is_slang": true
+  },
+  "ghost": {
+    "word": "ghost",
+    "phonetic": "/ɡoʊst/",
+    "chinese": "鬼，幽灵",
+    "pinyin": "guǐ, yōulíng",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "the spirit of a dead person, often imagined as a pale, shadowy figure who sometimes appears to the living",
+          "something that is not real or has no real existence (used figuratively)"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to suddenly stop all communication with someone, especially in a romantic relationship, without explanation (informal, slang)"
+        ]
+      }
+    ],
+    "examples": [
+      "Many people believe that old houses are haunted by ghosts.",
+      "She decided to ghost him after their last argument."
+    ],
+    "chinese_examples": [
+      "许多人认为老房子里有鬼。",
+      "他们吵架后，她决定不再联系他（把他“鬼”掉）。"
+    ],
+    "usage_notes": "As a noun, 'ghost' refers to a supernatural spirit or apparition. As a verb (slang), to 'ghost' someone means to abruptly cut off all communication, typically in social or romantic contexts. This slang usage is now common in everyday conversation, especially among younger generations. 'Ghost' as a noun is not slang, while the verb usage as 'to ghost someone' is considered informal slang.",
+    "is_slang": false
+  },
+  "lowkey": {
+    "word": "lowkey",
+    "phonetic": "/ˌloʊˈkiː/",
+    "chinese": "低调的；有点儿；私下里；有点想（做某事）",
+    "pinyin": "dī diào de; yǒu diǎnr; sī xià lǐ; yǒu diǎn xiǎng (zuò mǒu shì)",
+    "meanings": [
+      {
+        "part_of_speech": "adjective/adverb (slang)",
+        "definitions": [
+          "not intended to attract a lot of attention; discreet; modest.",
+          "to some extent; kind of; slightly (used to express something in a subtle or understated way, often as an intensifier)."
+        ]
+      }
+    ],
+    "examples": [
+      "I want to keep this party lowkey. (我想让这个聚会低调一些。)",
+      "I'm lowkey excited about the new job. (我其实挺期待这份新工作的。)",
+      "She lowkey wants to travel the world. (她有点儿想环游世界。)"
+    ],
+    "chinese_examples": [
+      "我们悄悄地办了一个低调的聚会。",
+      "他低调地帮了大家一个大忙。",
+      "我其实有点想试试那个新餐厅。"
+    ],
+    "usage_notes": "‘Lowkey’ is internet and spoken slang, especially popular among young people. It can be used as an adverb to mean 'kind of' or 'secretly', and as an adjective to describe something subtle or not flamboyant. Its informal tone makes it suitable for casual conversation or social media, not for formal writing. Opposite slang: ‘highkey’.",
+    "is_slang": true
+  },
+  "fam": {
+    "word": "fam",
+    "phonetic": "/fæm/",
+    "chinese": "家人，朋友，兄弟，亲密群体",
+    "pinyin": "jiā rén, péng yǒu, xiōng dì, qīn mì qún tǐ",
+    "meanings": [
+      {
+        "part_of_speech": "noun (slang)",
+        "definitions": [
+          "A term used to refer to close friends, a group of people one regards as family, or sometimes actual family members."
+        ]
+      }
+    ],
+    "examples": [
+      "What's up, fam?",
+      "You're always there for me, fam.",
+      "Let's chill this weekend, fam."
+    ],
+    "chinese_examples": [
+      "嘿，fam，最近怎么样？",
+      "谢谢你一直支持我，fam。",
+      "这个周末和fam聚一聚吧。"
+    ],
+    "usage_notes": "'Fam' originates from 'family', and is widely used in British and American slang among younger people. It usually refers to close friends or a tight social group rather than literal relatives. It is informal, so avoid using it in formal or professional contexts.",
+    "is_slang": true
+  },
+  "woke": {
+    "word": "woke",
+    "phonetic": "/woʊk/",
+    "chinese": "觉醒的，清醒的，有社会觉悟的",
+    "pinyin": "juéxǐng de, qīngxǐng de, yǒu shèhuì juéwù de",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "Being aware of and actively attentive to important social and political facts and issues, especially issues of racial and social justice (originally African-American vernacular)."
+        ]
+      },
+      {
+        "part_of_speech": "verb (past tense of 'wake')",
+        "definitions": [
+          "Past tense and past participle of 'wake', meaning to stop sleeping or to become awake."
+        ]
+      }
+    ],
+    "examples": [
+      "She is very woke about issues of gender equality.",
+      "After the loud noise, I woke from a deep sleep."
+    ],
+    "chinese_examples": [
+      "她对性别平等的问题非常有社会觉悟。",
+      "噪音过后，我从沉睡中醒来。"
+    ],
+    "usage_notes": "As an adjective, 'woke' originated in African-American Vernacular English (AAVE), referring to being socially conscious, especially about injustices. In recent years, it has been adopted more broadly and sometimes used sarcastically or pejoratively, especially in political contexts. As a verb, 'woke' is simply the past tense of 'wake'.",
+    "is_slang": true
+  },
+  "sus": {
+    "word": "sus",
+    "phonetic": "/sʌs/",
+    "chinese": "可疑的，有嫌疑的",
+    "pinyin": "kě yí de, yǒu xián yí de",
+    "meanings": [
+      {
+        "part_of_speech": "adjective (slang)",
+        "definitions": [
+          "Suspicious. Used to describe someone or something that seems shady, untrustworthy, or questionable."
+        ]
+      },
+      {
+        "part_of_speech": "noun (slang)",
+        "definitions": [
+          "A person or thing that is suspicious or seems untrustworthy."
+        ]
+      }
+    ],
+    "examples": [
+      "He’s acting really sus – I don’t think he’s telling the truth.",
+      "That story sounds a bit sus to me.",
+      "Don’t be sus, just tell us what happened."
+    ],
+    "chinese_examples": [
+      "他说话的方式很sus，我觉得他在隐瞒什么。",
+      "这件事听起来有点sus，不太可信。"
+    ],
+    "usage_notes": "'Sus' is an abbreviation of 'suspicious' and is primarily used in informal speech or online contexts. It became especially popular due to the video game 'Among Us', where the term is frequently used to call out players who seem untrustworthy. It is considered slang and may not be understood by older generations or in formal writing.",
+    "is_slang": true
+  },
+  "binge": {
+    "word": "binge",
+    "phonetic": "/bɪndʒ/",
+    "chinese": "狂饮；放纵；无节制地做某事",
+    "pinyin": "kuáng yǐn; fàng zòng; wú jié zhì de zuò mǒu shì",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a short period of time when you do too much of something, such as eating or drinking (especially alcohol)",
+          "an episode of excessive indulgence in an activity, especially eating or drinking"
+        ]
+      },
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to indulge in an activity, especially eating or drinking, to excess in a short period of time"
+        ]
+      }
+    ],
+    "examples": [
+      "He went on a drinking binge last weekend.",
+      "She binge-watched the whole TV series in two days.",
+      "Many people binge on junk food when they are stressed."
+    ],
+    "chinese_examples": [
+      "他上周末狂饮了一整晚。",
+      "她在两天内一口气看完了整部电视剧。",
+      "许多人在压力大时会暴饮暴食垃圾食品。"
+    ],
+    "usage_notes": "'Binge' is often used with verbs like 'go on a binge' (noun) or 'binge-watch', 'binge-eat', 'binge-drink' (verbs). Originally, it mostly referred to excessive drinking, but nowadays, it can refer to overindulgence in many activities, such as watching TV shows ('binge-watching') or eating ('binge-eating'). The word is commonly used informally and is not considered slang, but more a casual expression.",
+    "is_slang": false
+  },
+  "cringe": {
+    "word": "cringe",
+    "phonetic": "/krɪndʒ/",
+    "chinese": "畏缩，尴尬，感到难为情",
+    "pinyin": "wèi suō, gān gà, gǎn dào nán wéi qíng",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to bend one's head and body in fear or in a servile manner; to shrink back as if in fear.",
+          "to react with embarrassment or discomfort caused by someone else's actions or words."
+        ]
+      },
+      {
+        "part_of_speech": "noun (informal)",
+        "definitions": [
+          "an act or feeling of embarrassment or discomfort, especially towards someone else's actions."
+        ]
+      }
+    ],
+    "examples": [
+      "She cringed when she heard her father singing in front of everyone.",
+      "His rude remarks made me cringe with embarrassment.",
+      "The movie's dialogue is so bad, it’s pure cringe."
+    ],
+    "chinese_examples": [
+      "她听到父亲在众人面前唱歌时，感到很尴尬。",
+      "他的无礼言论让我感到难为情。",
+      "那部电影的台词太尴尬了，简直让人无地自容。"
+    ],
+    "usage_notes": "'Cringe' is used both in its original sense of physical recoiling (typically due to fear) and, more commonly in modern usage, to describe a reaction to social embarrassment, awkwardness, or second-hand shame. As a noun, it is frequently used in informal, internet, or youth contexts (e.g., 'That post is such cringe'). As a slang word, 'cringe' is widespread online to label something as embarrassing or awkward.",
+    "is_slang": true
+  },
+  "beat": {
+    "word": "beat",
+    "phonetic": "/biːt/",
+    "chinese": "击败，打，敲打，节拍",
+    "pinyin": "jī bài, dǎ, qiāo dǎ, jié pāi",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "definitions": [
+          "to strike repeatedly; to hit over and over again",
+          "to defeat someone in a game, contest, or argument",
+          "to mix ingredients quickly and continuously"
+        ]
+      },
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a regular movement or sound, especially that made by the heart or by music",
+          "the main rhythm or rhythmical unit in music",
+          "an area regularly watched by a police officer (police beat)"
+        ]
+      },
+      {
+        "part_of_speech": "adjective",
+        "definitions": [
+          "exhausted; very tired (informal, mainly American English)"
+        ]
+      }
+    ],
+    "examples": [
+      "He beat the drum loudly. （他大声敲打鼓。）",
+      "Our team beat theirs easily. （我们队轻松击败了他们。）",
+      "You need to beat the eggs before adding sugar. （加糖前你需要把鸡蛋打散。）",
+      "The beat of the music was very strong. （音乐的节拍很强烈。）",
+      "After working all day, I’m completely beat. （工作一整天后，我完全累坏了。）"
+    ],
+    "chinese_examples": [
+      "He beat the drum loudly. 他大声敲打鼓。",
+      "Our team beat theirs easily. 我们队轻松击败了他们。",
+      "You need to beat the eggs before adding sugar. 加糖前你需要把鸡蛋打散。",
+      "The beat of the music was very strong. 音乐的节拍很强烈。",
+      "After working all day, I’m completely beat. 工作一整天后，我完全累坏了。"
+    ],
+    "usage_notes": "'Beat' is a versatile word used as a verb, noun, and sometimes as an adjective (informally). As a verb, it can refer to physically hitting, winning over someone, or stirring ingredients. As a noun, it often refers to rhythmic patterns in music or a specific area (like a police beat). When used as an adjective meaning 'tired', it is informal and more common in American English. It can also be part of numerous idioms, such as 'beat around the bush' (to avoid the main topic).",
+    "is_slang": false
+  },
+  "bucks": {
+    "word": "bucks",
+    "phonetic": "/bʌks/",
+    "chinese": "美元（俚语）、雄鹿",
+    "pinyin": "měi yuán (lǐ yǔ), xióng lù",
+    "meanings": [
+      {
+        "part_of_speech": "noun (plural)",
+        "definitions": [
+          "(Slang) Dollars; units of American or other dollars."
+        ]
+      },
+      {
+        "part_of_speech": "noun (plural)",
+        "definitions": [
+          "Male deer, antelope, rabbit, or hare; especially an adult male deer."
+        ]
+      },
+      {
+        "part_of_speech": "verb (third person singular: bucks)",
+        "definitions": [
+          "To resist or oppose something. (Less commonly used in this form)"
+        ]
+      }
+    ],
+    "examples": [
+      "I spent twenty bucks on this shirt.",
+      "There are several bucks grazing in the field."
+    ],
+    "chinese_examples": [
+      "我在这件衬衫上花了二十块钱。",
+      "有几只雄鹿在田里吃草。"
+    ],
+    "usage_notes": "\"Bucks\" is commonly used in informal spoken American English to refer to money (especially U.S. dollars). It is not appropriate for formal writing. The word can also refer to adult male animals, particularly deer. The verb form is less common in modern usage except in fixed phrases like 'buck the trend.'",
+    "is_slang": true
+  },
+  "buddy": {
+    "word": "buddy",
+    "phonetic": "/ˈbʌdi/",
+    "chinese": "朋友；伙伴；哥们儿",
+    "pinyin": "péngyǒu; huǒbàn; gēmenr",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "definitions": [
+          "a friend; a companion.",
+          "someone who does something together with you, such as a work or training partner.",
+          "(in informal speech, especially American English) a way to address a man, sometimes used in a familiar or slightly confrontational manner."
+        ]
+      },
+      {
+        "part_of_speech": "verb (rare/colloquial)",
+        "definitions": [
+          "to become friends or act in a friendly way."
+        ]
+      }
+    ],
+    "examples": [
+      "He is my best buddy; we've known each other since kindergarten.",
+      "Let's buddy up for the project at work.",
+      "Hey buddy, you dropped your wallet!"
+    ],
+    "chinese_examples": [
+      "他是我的好哥们儿，我们从幼儿园就认识了。",
+      "我们在这个项目中搭档吧。",
+      "嘿，哥们儿，你钱包掉了！"
+    ],
+    "usage_notes": "'Buddy' is an informal word, mainly used in American and Canadian English. It is commonly used to refer to a male friend, though in casual situations it can be used for females as well. When addressing someone as 'buddy', context and tone are important: it can be friendly ('Hey buddy!') or slightly aggressive if spoken sharply to a stranger. The word is less formal than 'friend', and may not be appropriate in formal contexts, business correspondence, or with people you do not know well. In some cases, it may be perceived as patronizing or rude, especially among adults who are strangers.",
+    "is_slang": true
+  }
+}

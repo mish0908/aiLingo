@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 from models import db, User
 from user import create_user, authenticate, get_user
 from vocabulary_service import VocabularyService
@@ -27,6 +27,27 @@ def vocabulary_category(category):
     vocab_service = VocabularyService()
     words = vocab_service.get_category_words(category)
     return render_template('vocabulary_category.html', category=category, words=words)
+
+@app.route('/study')
+def study_session():
+    category = request.args.get('category')
+    word_count = int(request.args.get('word_count', 5))
+    
+    vocab_service = VocabularyService()
+    words = vocab_service.generate_study_session(category, word_count)
+    
+    return render_template('study_session.html', 
+                         words=words,
+                         category=category,
+                         word_count=word_count)
+
+@app.route('/api/random_words')
+def api_random_words():
+    category = request.args.get('category')
+    word_count = int(request.args.get('word_count', 10))
+    vocab_service = VocabularyService()
+    words = vocab_service.generate_study_session(category, word_count)
+    return jsonify({'words': words})
 
 # ---------- register ----------
 @app.route('/register', methods=['GET', 'POST'])
